@@ -1,5 +1,5 @@
 import sys
-print("Python Version")
-print(sys.version)
-print("Version info")
-print(sys.version_info)
+print("Python Version",sys.version)
+#print(sys.version)
+print("Version info",sys.version_info)
+#print(sys.version_info)

@@ -5,15 +5,10 @@ def user_choice():
     while choice.isalpha() == True:
         choice = input("Enter a letter between a to z:")
         if choice in acceptable_range:
-            if choice.isalnum() == True:
-                print("Not in range")
-            else:
-                print("True")
+            print("True")
+        elif choice.isdigit() == True:
+            print("Not in range")
         else:
             print("Sorry it is not accepted")
     return choice
 user_choice()
-
-# for i in range(ord('a'), ord('z')+1):
-#     print(chr(i), end="\t")
-#

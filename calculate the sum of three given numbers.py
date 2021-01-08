@@ -12,7 +12,7 @@ def addition():
     b = int(input("Enter the value of b:"))
     c = int(input("Enter the value of c:"))
     if a == b == c:
-        d=(a+b+c)*3
+        d = (a+b+c)*3
         print("result",d)
     else:
         e = a+b+c

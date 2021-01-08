@@ -11,7 +11,7 @@ def child():
            elif int(age) > 18 and int(age)<110:
                print("Adult")
            else:
-               print("Enter the numbers between 1 to 100")
+               print("Enter the numbers between 1 to 110")
         else:
            print("Not valid input, please enter again: ")
     return int(age)

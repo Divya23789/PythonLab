@@ -12,4 +12,3 @@ def user_choice():
             print("Sorry that is not a digit")
     return int(choice)
 user_choice()
-
